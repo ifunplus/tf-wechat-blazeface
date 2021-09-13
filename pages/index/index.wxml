@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+  <camera frame-size="small" style="height:300px;width:300px;" flash="off">
+  <canvas id="image" canvas-id="image" style="width: 100%; height: 100%;z-index: 10;" ></canvas>
+  </camera>
+    <text class="user-motto">{{result}}</text>
+</view>
